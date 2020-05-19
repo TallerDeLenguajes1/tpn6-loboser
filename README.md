@@ -1,42 +1,43 @@
 # Trabajo Práctico N6
 ### Ejercicio 4:
 * **¿String es un tipo por valor o un tipo por referencia?**
-_El tipo string representa una secuencia de cero o más caracteres Unicode. string es un alias de System.String en .NET._
 
-_Aunque string es un tipo de referencia, se definen los operadores de igualdad == y != para comparar los valores de los objetos string, no las referencias._
+El tipo string representa una secuencia de cero o más caracteres Unicode. string es un alias de System.String en .NET.
+
+Aunque string es un tipo de referencia, se definen los operadores de igualdad == y != para comparar los valores de los objetos string, no las referencias.
 
 * **¿Qué secuencias de escape tiene el tipo string?**
 
 
-_\'	Comilla simple_
+\'	Comilla simple
 
-_\"	Comillas doble_
+\"	Comillas doble
 
-_\\	Slash inverso_
+\\	Slash inverso
 
-_\0	Nulo_
+\0	Nulo
 
-_\a	Alerta_
+\a	Alerta
 
-_\b	Retroceso_
+\b	Retroceso
 
-_\f	Alimentación de Formulario_
+\f	Alimentación de Formulario
 
-_\n	Nueva linea_
+\n	Nueva linea
 
-_\r	Retorno de carro_
+\r	Retorno de carro
 
-_\t	Tabulación Horizontal_
+\t	Tabulación Horizontal
 
-_\v	Tabulación Vertical_
+\v	Tabulación Vertical
 
-_\u	Unicode (UTF-16)_
+\u	Unicode (UTF-16)
 
-_\U	Unicode (UTF-32)_
+\U	Unicode (UTF-32)
 
-_\x	Unicode (similar a \u excepto con variable de longitud)_
+\x	Unicode (similar a \u excepto con variable de longitud)
 
 
 * **¿Qué sucede cuando utiliza el carácter @ antes de una cadena de texto?**
 
-_Toma el simbolo y no utiliza secuencias de escape._
+Toma el simbolo y no utiliza secuencias de escape.
