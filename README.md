@@ -1,3 +1,4 @@
+#TP 6
 ##Ejercicio 4:
 -**¿String es un tipo por valor o un tipo por referencia?**
 El tipo string representa una secuencia de cero o más caracteres Unicode. string es un alias de System.String en .NET.
