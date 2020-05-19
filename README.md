@@ -5,6 +5,7 @@ El tipo string representa una secuencia de cero o más caracteres Unicode. strin
 Aunque string es un tipo de referencia, se definen los operadores de igualdad == y != para comparar los valores de los objetos string, no las referencias.
 
 * **¿Qué secuencias de escape tiene el tipo string?**
+
  \'	Comilla simple
  \"	Comillas doble
  \\	Slash inverso
