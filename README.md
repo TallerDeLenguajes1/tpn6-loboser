@@ -42,7 +42,7 @@ Aunque string es un tipo de referencia, se definen los operadores de igualdad ==
 
 Toma el simbolo y no utiliza secuencias de escape.
 
-### Ejercicio 4:
+### Ejercicio 5:
 
 * **¿Funcionan únicamente en C#?**
 
