@@ -41,3 +41,17 @@ Aunque string es un tipo de referencia, se definen los operadores de igualdad ==
 * **¿Qué sucede cuando utiliza el carácter @ antes de una cadena de texto?**
 
 Toma el simbolo y no utiliza secuencias de escape.
+
+### Ejercicio 4:
+
+* **¿Funcionan únicamente en C#?**
+
+No, tambien funcionan en C++, Python, Java, Javascript, PHP, entre otros.
+
+* **¿En qué casos le parecen útiles? Enuncie al menos 3.**
+
+Nos permite verificar algo de forma automatica, para confirmar una parte de validez
+
+Filtrar textos
+
+Buscar en textos
