@@ -1,27 +1,30 @@
 ﻿using System;
 
-class tp6_1
+namespace tp6
 {
-	public static void Main()
+	class tp6_1
 	{
-		int numero, inverso = 0;
-
-		Console.WriteLine("Ingrese un numero: ");
-		numero = Convert.ToInt32(Console.ReadLine());
-
-		if (numero > 0)
+		public static void Main()
 		{
-			while (numero > 0)
+			int numero, inverso = 0;
+
+			Console.WriteLine("Ingrese un numero: ");
+			numero = Convert.ToInt32(Console.ReadLine());
+
+			if (numero > 0)
 			{
-				inverso = inverso * 10 + numero % 10;
-				numero = numero / 10;
+				while (numero > 0)
+				{
+					inverso = inverso * 10 + numero % 10;
+					numero = numero / 10;
+				}
 			}
-		}
-		else
-		{
-			inverso = numero;
-		}
+			else
+			{
+				inverso = numero;
+			}
 
-		Console.WriteLine("Numero invertido: " + inverso);
+			Console.WriteLine("Numero invertido: " + inverso);
+		}
 	}
 }
